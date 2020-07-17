@@ -5,6 +5,30 @@ function Gallery() {
         < div className = "col-12 col-md-10 body">
             <h5>Gallery</h5>
             <div className="divider"></div>
+            <div className="row">
+                <div className="col-12 col-sm-6 col-lg-3 gallery-body">
+                    <div className="img-container">
+                        <img src="assets/lab_1.jpg" alt="Research Lab 1"/>
+                    </div>
+                </div>
+                <div className="col-12 col-sm-6 col-lg-3 gallery-body">
+                    < div className = "img-container" >
+                        <img src="assets/lab_2.jpg" alt="Research Lab 3"/>
+                    </div>
+                </div>
+                <div className="col-12 col-sm-6 col-lg-3 gallery-body">
+                    < div className = "img-container" >
+                        <img src="assets/lab_3.jpg" alt="Research Scholars Lab"/>
+                    </div>
+                </div>
+                <div className="col-12 col-sm-6 col-lg-3 gallery-body">
+                    < div className = "img-container" >
+                        <img src="assets/dept_img.jpg" alt="Department Banner"/>
+                    </div>
+                </div>
+                
+            </div>
+            <hr/>
         </div>
     );
 }

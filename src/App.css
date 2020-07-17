@@ -184,3 +184,12 @@ thead, .card-head{
 }
 
 /**********************/
+
+/*Gallery*/
+.gallery-body img{
+    width: 100%;
+}
+.gallery-body{
+    margin-bottom: 2%;
+}
+/*********/
