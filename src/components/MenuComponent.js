@@ -4,7 +4,7 @@ import {Nav} from 'reactstrap';
 
 function Menu(){
     return(
-        <div className="col-12 col-md-2 order-last order-md-first">
+        <div className="col-12 col-md-2 order-last order-md-first menu">
             <Nav>
                 <ul className="list-unstyled">
                     <p>

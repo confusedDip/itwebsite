@@ -3,7 +3,7 @@ import {Card, CardBody, CardImg, CardTitle, CardText} from 'reactstrap';
 
 function Faculty() {
     return (
-        < div className = "col-12 col-md-10">
+        < div className = "col-12 col-md-10 body">
             <h5>Faculty Members</h5>
             <div className="divider"></div>
             <div className="row row-eq-height">

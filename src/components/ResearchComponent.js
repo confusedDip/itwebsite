@@ -3,10 +3,10 @@ import {Table} from 'reactstrap';
 
 function Research() {
     return (
-        < div className = "col-12 col-md-10">
+        < div className = "col-12 col-md-10 body">
             <h5>Research Areas</h5>
             <div className="divider"></div>
-            <Table striped>
+            <Table striped className="table-responsive-sm">
                 <tbody>
                     <tr>
                     <th scope="row">1</th>

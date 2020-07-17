@@ -43,6 +43,23 @@ body{
 
 .card {
     height: 100%;
+    box-shadow: 0px 0px 30px rgba(83, 88, 93, 0.15);
+}
+
+.card-body{
+    min-height: 200px;
+}
+
+.body .fa{
+    color: #191970;
+}
+
+.body a{
+    color:#4a4a4a;
+}
+
+.body a:hover{
+    color: #191970;
 }
 
 span {
@@ -50,6 +67,14 @@ span {
     border-radius: 50%;
     padding: 1px 4px;
     margin-right: 10px;
+}
+
+
+.know-more-btn, .know-more-btn:hover{
+    background-color: #191970;
+    color: #fff;
+    font-size: smaller;
+    font-weight: bold;
 }
 
 /*Header Component*/
@@ -88,6 +113,10 @@ a:hover {
     text-decoration: none;
 }
 
+.body{
+    margin-top: 2%;
+}
+
 .footer-title{
     background-color: #191970;
     color: #fff;
@@ -103,4 +132,55 @@ a:hover {
     border-radius: 5%;
     padding: 5%;
 }*/
+
+.menu{
+    margin-top: 2%;
+}
 /****************/
+
+/*Academic Component*/
+thead, .card-head{
+    background-color: #191970;
+    color: #fff;
+}
+/********************/
+
+/*Home Component*/
+.home-text{
+    text-align: justify;
+}
+
+.updates-card{
+    box-shadow: none;
+}
+/****************/
+
+/*Facilities Component*/
+.facilities-body img{
+    width: 90%;
+    height: auto;
+    margin: 1% 5%;
+}
+
+.img-container{
+    padding: 1% 2%;
+    box-shadow: 0px 0px 30px rgba(83, 88, 93, 0.15)
+
+}
+
+.desc-container{
+    padding: 1% 7% 4%;
+    margin-bottom: 2%;
+    box-shadow: 0px 0px 30px rgba(83, 88, 93, 0.15)
+
+}
+
+.facilities-body a {
+    font-weight: 500;
+}
+
+.facilities-body{
+    margin-bottom: 2%;
+}
+
+/**********************/
