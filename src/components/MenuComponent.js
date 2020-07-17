@@ -32,7 +32,7 @@ function Menu(){
                         <NavLink to="/project">Projects</NavLink>
                     </p>
                     <p>
-                        <NavLink to="/pubpcation">Publications</NavLink>
+                        <NavLink to="/publication">Publications</NavLink>
                     </p>
                     <p>
                         <NavLink to="/gallery">Gallery</NavLink>
@@ -45,6 +45,7 @@ function Menu(){
                     </p>
                 </ul>
             </Nav>
+            <hr/>
         </div>
     );
 }

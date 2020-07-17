@@ -20,12 +20,13 @@ import Update from './components/UpdateComponent';
 import Contact from './components/ContactComponents';
 
 function App() {
+
   return (
     <BrowserRouter>
       <div>
           <Header />
           <div className="container">
-            <div className="row">
+            <div className="row mt-4">
               <Menu />
               <Switch>
                 <Route path="/home" component={Home}/>

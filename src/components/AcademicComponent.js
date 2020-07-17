@@ -6,7 +6,7 @@ function Academic() {
     return (
         < div className = "col-12 col-md-10">
             <h5>Academic Programs</h5>
-            <hr/>
+            <div className="divider"></div>
             <Table striped>
                 <thead>
                     <tr>
@@ -41,6 +41,7 @@ function Academic() {
                     </tr>
                 </tbody>
             </Table> 
+            <hr/>
         </div>
     );
 }

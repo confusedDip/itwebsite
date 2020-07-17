@@ -1,4 +1,106 @@
 body{
     font-size: 0.875rem;
+    color: #4a4a4a;
 }
 
+.container{
+        width: 100%;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto
+}
+
+    @media (min-width:576px) {
+        .container {
+            max-width: 570px
+        }
+    }
+
+    @media (min-width:768px) {
+        .container {
+            max-width: 760px
+        }
+    }
+
+    @media (min-width:992px) {
+        .container {
+            max-width: 980px
+        }
+    }
+
+    @media (min-width:1200px) {
+        .container {
+            max-width: 1180px
+        }
+}
+
+.divider{
+    height: 5px;
+    background-color: #191970;
+    margin-bottom: 2%;
+}
+
+.card {
+    height: 100%;
+}
+
+span {
+    background-color: #f0f1f3;
+    border-radius: 50%;
+    padding: 1px 4px;
+    margin-right: 10px;
+}
+
+/*Header Component*/
+.iiestlogo {
+    width: 50%;
+}
+
+.iiestbanner {
+    width: 100%;
+}
+
+h1 {
+    font-size: calc(1.34375rem + 1.125vw);
+    color: white;
+    font-family: "Poppins"sans-serif;
+}
+
+.heading {
+    background-color: #191970;
+}
+/******************/
+
+
+/*Footer Component*/
+.footer {
+    margin: 2% 0;
+}
+
+.facebook,
+.linkedin {
+    margin: 0 10px;
+}
+
+
+a:hover {
+    text-decoration: none;
+}
+
+.footer-title{
+    background-color: #191970;
+    color: #fff;
+    padding: 1%;
+    margin-bottom: 2%;
+}
+/******************/
+
+/*Menu Component
+.active{
+    background-color: #191970;
+    color: #fff;
+    border-radius: 5%;
+    padding: 5%;
+}*/
+/****************/
