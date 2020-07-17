@@ -199,3 +199,9 @@ thead, .card-head{
     min-height: 200px;
 }
 /*********/
+
+/*Publication*/
+.publication-item:hover{
+    color: #191970;
+}
+/*************/
