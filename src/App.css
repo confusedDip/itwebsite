@@ -193,3 +193,9 @@ thead, .card-head{
     margin-bottom: 2%;
 }
 /*********/
+
+/*Updates*/
+.UpdateBody{
+    min-height: 200px;
+}
+/*********/
