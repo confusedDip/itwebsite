@@ -224,6 +224,8 @@ function Faculty() {
                     </Card>
                 </div>
             </div>
+            <br/>
+            <hr/>
         </div>
     );
 }

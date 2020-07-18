@@ -45,7 +45,6 @@ function App() {
                 < Redirect to = "/home" />
               </Switch>  
             </div>
-          <hr/>
           </div>
           <Footer />
       </div>

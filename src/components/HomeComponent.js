@@ -11,7 +11,7 @@ function Home(){
                 <hr/>
             </div>
             <div className="col-12 col-md-3 body">
-                <Card className="updates-card">
+                <Card id="updates-card">
                     <CardTitle className="text-center card-header card-head">
                         <h5>Updates</h5>
                     </CardTitle>

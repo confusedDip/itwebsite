@@ -1,35 +1,10 @@
 import React from 'react';
-import {Link} from 'react-router-dom';
 
 function Footer(){
     return (
       <React.Fragment>
         <div className="footer">
             <div className="container">
-            <div className="row">
-              < div className = "col-5 text-center" ></ div>
-              <div className="col-2 text-center footer-title">
-                  <h6>Contact Us</h6>
-              </div>
-              <div className="col-5"></div>
-              <hr/>
-              <div className="col-12">
-                <p>
-                  <strong>Office:</strong> &nbsp;&nbsp;&nbsp;&nbsp; <i class="fa fa-lg fa-map-marker" aria-hidden="true"></i> Botanic Garden,
-                  Dist: Howrah, West Bengal, India - 711103  <i class="fa fa-lg fa-phone" aria-hidden="true"></i> +91
-                  (033) 2668 4561 to 63 <i class="fa fa-lg fa-fax" aria-hidden="true"></i> +91 (033) 2668 2916 (Fax)
-                </p>
-                <p>
-                  <strong>Public Relation Officer:</strong>&nbsp;&nbsp;&nbsp;&nbsp; <i class="fa fa-lg fa-envelope" aria-hidden="true"></i> pro@iiests.ac.in 
-                  &nbsp;<i class="fa fa-lg fa-phone" aria-hidden="true"></i> 033 - 2668
-                  8081(Direct) / 2668 4561 / 62 / 63 Extn: 629 / 9831212905(M)
-                </p>
-                <p>
-                  <strong>Security Personnel:</strong>&nbsp;&nbsp;&nbsp;&nbsp; <i class="fa fa-lg fa-envelope" aria-hidden="true"></i> debanjan.das15@gmail.com <i class="fa fa-lg fa-phone" aria-hidden="true"></i> + 91 986390527 /
-                  7980754940
-                </p>
-              </div>
-            </div>
             <div className="row">
               <div className="col-12 col-md-6">
                 <h6>Quick Links</h6>
@@ -38,34 +13,34 @@ function Footer(){
                   <div className="col-12 col-sm-6">
                     <ul className="list-unstyled">
                       <li>
-                        <Link to="/home/">Home</Link>
+                        <a href="/home">Home</a>
                       </li>
                       <li>
-                          <Link to="/academics">Academic Programs</Link>
+                          <a href="/academics">Academic Programs</a>
                       </li>
                       <li>
-                          <Link to="/facilities">Facilities</Link>
+                          <a href="/facilities">Facilities</a>
                       </li>
                       <li>
-                          <Link to="/research">Research Areas</Link>
+                          <a href="/research">Research Areas</a>
                       </li>
                       <li>
-                          <Link to="/faculty">Faculty Members</Link>
+                          <a href="/faculty">Faculty Members</a>
                       </li>
                       <li>
-                          <Link to="/staffs">Staff Members</Link>
+                          <a href="/staffs">Staff Members</a>
                       </li>
                       <li>
-                          <Link to="/scholars">Research Scholars</Link>
+                          <a href="/scholars">Research Scholars</a>
                       </li>
                       <li>
-                          <Link to="/project">Projects</Link>
+                          <a href="/project">Projects</a>
                       </li>
                       <li>
-                          <Link to="/publication">Publications</Link>
+                          <a href="/publication">Publications</a>
                       </li>
                       <li>
-                          <Link to="/gallery">Gallery</Link>
+                          <a href="/gallery">Gallery</a>
                       </li>
                       
                     </ul>
@@ -73,34 +48,22 @@ function Footer(){
                   <div className="col-12 col-sm-6">
                     <ul className="list-unstyled">
                       <li>
-                        <a href="#">Website &amp; Network Group</a>
+                        <a href="/updates">Updates</a>
                       </li>
                       <li>
-                        <a href="#">Email Service</a>
+                        <a href="/contact">Contact Us</a>
                       </li>
                       <li>
-                        <a href="#">Email Accounts - Password Change</a>
+                        <a href="https://www.iiests.ac.in/" target="blank">Institute Website</a>
                       </li>
                       <li>
-                        <a href="#">Alumni Cell</a>
+                        <a href="https://oldwww.iiests.ac.in/" target="blank">Old Website</a>
                       </li>
                       <li>
-                        <a href="#">Publicity and Media Cell</a>
+                        <a href="http://online.iiests.ac.in:1977/CampusPortal/CampusPortal.jsp" target="blank">My-IIESTS</a>
                       </li>
                       <li>
-                        <a href="#">Reservation Cell</a>
-                      </li>
-                      <li>
-                        <a href="#">राजभाषा प्रकोष्ठ</a>
-                      </li>
-                      <li>
-                        <a href="#">Internal Complaints Committee</a>
-                      </li>
-                      <li>
-                        <a href="#">Events Gallery</a>
-                      </li>
-                      <li>
-                        <a href="#">Website Feedback</a>
+                        <a href="mailto:souradipnath4@gmail.com" target="blank">Website Feedback</a>
                       </li>
                     </ul>
                   </div>
@@ -110,32 +73,32 @@ function Footer(){
                 <h6>External Links</h6>
                 <div className="divider"></div>
                 <ul className="list-unstyled">
-                  <li><a href="#">Innovasion Award</a></li>
-                  <li><a href="#">IEEE Kolkata - IAS Chapter</a></li>
-                  <li><a href="#">DASA</a></li>
-                  <li><a href="#">Commonwealth</a></li>
-                  <li><a href="#">NATA</a></li>
-                  <li><a href="#">TEQIP</a></li>
-                  <li><a href="#">Contributory Medical Scheme (CMS)</a></li>
-                  <li><a href="#">DAAD Scholarship-WISE</a></li>
-                  <li><a href="#">NSP Portal for Scholarship</a></li>
-                  <li><a href="#">National Career Service</a></li>
+                  <li><a href="http://innovisionaward.iiests.ac.in/" target="blank">Innovasion Award</a></li>
+                  <li><a href="http://ieeekol.iiests.ac.in/" target="blank">IEEE Kolkata - IAS Chapter</a></li>
+                  <li><a href="https://dasanit.org/dasa2019/" target="blank">DASA</a></li>
+                  <li><a href="https://www.britishcouncil.in/study-uk/scholarships/commonwealth-scholarships" target="blank">Commonwealth</a></li>
+                  <li><a href="http://www.nata.in/" target="blank">NATA</a></li>
+                  <li><a href="http://teqip-iii.iiests.ac.in/" target="blank">TEQIP</a></li>
+                  <li><a href="https://www.iiests.ac.in/IIEST/CMS" target="blank">Contributory Medical Scheme (CMS)</a></li>
+                  <li><a href="https://www.iiests.ac.in/uploads/img01136.pdf" target="blank">DAAD Scholarship-WISE</a></li>
+                  <li><a href="https://www.iiests.ac.in/uploads/ReActivation-of-NSP-2.0-87-Institutes.pdf" target="blank">NSP Portal for Scholarship</a></li>
+                  <li><a href="https://www.ncs.gov.in/Pages/default.aspx" target="blank">National Career Service</a></li>
                 </ul>
               </div>
               <div className="col-12 col-md-3">
                 <h6>National Missions</h6>
                 <div className="divider"></div>
                 <ul className="list-unstyled">
-                  <li><a href="#">GIAN</a></li>
-                  <li><a href="#">NIRF</a></li>
-                  <li><a href="#">SPARC</a></li>
-                  <li><a href="#">JOSAA</a></li>
-                  <li><a href="#">ICCR</a></li>
-                  <li><a href="#">Unnat Bharat Abhiyan</a></li>
-                  <li><a href="#">Vidya Lakshmi</a></li>
-                  <li><a href="#">Digital India Programme</a></li>
-                  <li><a href="#">Prime Minister Research Fellowship</a></li>
-                  <li><a href="#">Imprint India</a></li>
+                  <li><a href="https://www.iiests.ac.in/IIEST/GIAN" target="blank">GIAN</a></li>
+                  <li><a href="https://www.iiests.ac.in/IIEST/NIRF" target="blank">NIRF</a></li>
+                  <li><a href="https://sparc.iitkgp.ac.in/" target="blank">SPARC</a></li>
+                  <li><a href="https://josaa.nic.in/webinfocms/Public/home.aspx" target="blank">JOSAA</a></li>
+                  <li><a href="http://a2ascholarships.iccr.gov.in/" target="blank">ICCR</a></li>
+                  <li><a href="https://www.iiests.ac.in/IIEST/UBA" target="blank">Unnat Bharat Abhiyan</a></li>
+                  <li><a href="https://www.vidyalakshmi.co.in/Students/" target="blank">Vidya Lakshmi</a></li>
+                  <li><a href="https://digitalindia.gov.in/content/about-programme" target="blank">Digital India Programme</a></li>
+                  <li><a href="https://www.iiests.ac.in/IIEST/Fellowship" target="blank">Prime Minister Research Fellowship</a></li>
+                  <li><a href="https://imprint-india.org/" target="blank">Imprint India</a></li>
                 </ul>
               </div>
             </div>

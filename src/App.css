@@ -44,13 +44,9 @@ body{
 .card {
     height: 100%;
     box-shadow: 0px 0px 30px rgba(83, 88, 93, 0.15);
-    transition: ease-in-out 1s;
 }
 
 
-.card:hover {
-    transform: scale(1.1);
-}
 
 .card-body{
     min-height: 200px;
@@ -106,8 +102,11 @@ h1 {
 
 /*Footer Component*/
 .footer {
-    margin: 2% 0;
+    padding: 2% 0;
+    background-color: #efefef;
+    border-top: 1px ridge rgba(83, 88, 93, 0.15);
 }
+
 
 .facebook,
 .linkedin {
@@ -121,14 +120,9 @@ a:hover {
 
 .body{
     margin-top: 2%;
+    padding-bottom: 2%;
 }
 
-.footer-title{
-    background-color: #191970;
-    color: #fff;
-    padding: 1%;
-    margin-bottom: 2%;
-}
 /******************/
 
 /*Menu Component
@@ -156,8 +150,13 @@ thead, .card-head{
     text-align: justify;
 }
 
-.updates-card{
+#updates-card{
     box-shadow: none;
+    transition: none;
+}
+
+#updates-card:hover{
+    transform: scale(1);
 }
 /****************/
 
@@ -165,7 +164,7 @@ thead, .card-head{
 .facilities-body img{
     width: 90%;
     height: auto;
-    margin: 1% 5%;
+    margin: 2% 5%;
 }
 
 .img-container{
@@ -187,12 +186,9 @@ thead, .card-head{
 
 .facilities-body{
     margin-bottom: 2%;
-    transition: ease-in-out 1s;
+    margin-top: 2%;
 }
 
-.facilities-body:hover{
-    transform: scale(1.1);
-}
 
 /**********************/
 
@@ -202,12 +198,9 @@ thead, .card-head{
 }
 .gallery-body{
     margin-bottom: 2%;
-   transition: ease-in-out 1s;
+    margin-top: 2%;
 }
 
-.gallery-body:hover{
-    transform: scale(1.1);
-}
 /*********/
 
 /*Updates*/
@@ -222,3 +215,35 @@ thead, .card-head{
 }
 /*************/
 
+@media (min-width:576px) {
+    .card {
+        height: 100%;
+        box-shadow: 0px 0px 30px rgba(83, 88, 93, 0.15);
+        transition: ease-in-out 1s;
+    }
+
+
+    .card:hover {
+        transform: scale(1.1);
+    }
+
+    .facilities-body {
+        margin-bottom: 2%;
+        margin-top: 2%;
+        transition: ease-in-out 1s;
+    }
+
+    .facilities-body:hover {
+        transform: scale(1.1);
+    }
+    .gallery-body {
+        margin-bottom: 2%;
+        transition: ease-in-out 1s;
+    }
+
+    .gallery-body:hover {
+        transform: scale(1.1);
+    }
+
+
+}

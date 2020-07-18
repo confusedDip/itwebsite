@@ -4,11 +4,11 @@ import {Nav} from 'reactstrap';
 
 function Menu(){
     return(
-        <div className="col-12 col-md-2 order-md-first menu">
+        <div className="col-12 col-md-2 order-last order-md-first menu">
             <Nav>
                 <ul className="list-unstyled">
                     <p>
-                        <NavLink to="/home">Home</NavLink>
+                        <NavLink to="/home"><a href="/home">Home</a></NavLink>
                     </p>
                     <p>
                         <NavLink to="/academics">Academic Programs</NavLink>

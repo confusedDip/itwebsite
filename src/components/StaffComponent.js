@@ -206,6 +206,8 @@ function Staff() {
                     </Card>
                 </div>
             </div>
+            <br/>
+            <hr/>
         </div>
     );
 }
