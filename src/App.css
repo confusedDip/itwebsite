@@ -130,10 +130,11 @@ a:hover {
 /******************/
 
 /*Menu Component*/
-menu-link{
+.menu-link{
     padding-left: 10px;
     padding-top: 10px;
     padding-bottom: 10px;
+    text-align: center;
 }
 .menu-active{
     font-weight: bold;
@@ -260,6 +261,13 @@ thead, .card-head{
 
     .gallery-body:hover {
         transform: scale(1.1);
+    }
+
+}
+
+@media (min-width: 768px){
+    .menu-link{
+        text-align: left;
     }
 }
 

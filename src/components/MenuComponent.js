@@ -4,47 +4,47 @@ import {Nav} from 'reactstrap';
 
 function Menu(){
     return(
-        <div className="col-12 col-md-2 order-last order-md-first menu">
-            <Nav>
-                <ul className="list-unstyled">
-                    <p className="menu-link">
+        <div className="col-12 col-md-2 order-md-first menu">
+            
+                <ul className="list-unstyled row">
+                    <div className="menu-link  col-12">
                         <NavLink to="/home" activeClassName="menu-active" >Home</NavLink>
-                    </p>
-                    <p className="menu-link">
+                    </div>
+                    <div className="menu-link  col-12">
                         <NavLink to="/academics" activeClassName="menu-active">Academic Programs</NavLink>
-                    </p>
-                    <p className="menu-link">
+                    </div>
+                    <div className="menu-link   col-12">
                         <NavLink to="/facilities" activeClassName="menu-active">Facilities</NavLink>
-                    </p>
-                    <p className="menu-link">
+                    </div>
+                    <div className="menu-link  col-12">
                         <NavLink to="/research" activeClassName="menu-active">Research Areas</NavLink>
-                    </p>
-                    <p className="menu-link">
+                    </div>
+                    <div className="menu-link  col-12">
                         <NavLink to="/faculty" activeClassName="menu-active">Faculty Members</NavLink>
-                    </p>
-                    <p className="menu-link">
+                    </div>
+                    <div className="menu-link  col-12">
                         <NavLink to="/staffs" activeClassName="menu-active">Staff Members</NavLink>
-                    </p>
-                    <p className="menu-link">
+                    </div>
+                    <div className="menu-link  col-12">
                         <NavLink to="/scholars" activeClassName="menu-active">Research Scholars</NavLink>
-                    </p>
-                    <p className="menu-link">
+                    </div>
+                    <div className="menu-link  col-12">
                         <NavLink to="/project" activeClassName="menu-active">Projects</NavLink>
-                    </p>
-                    <p className="menu-link">
+                    </div>
+                    <div className="menu-link  col-12">
                         <NavLink to="/publication" activeClassName="menu-active">Publications</NavLink>
-                    </p>
-                    <p className="menu-link">
+                    </div>
+                    <div className="menu-link  col-12">
                         <NavLink to="/gallery" activeClassName="menu-active">Gallery</NavLink>
-                    </p>
-                    <p className="menu-link">
+                    </div>
+                    <div className="menu-link  col-12">
                         <NavLink to="/updates" activeClassName="menu-active">Updates</NavLink>
-                    </p>
-                    <p className="menu-link">
+                    </div>
+                    <div className="menu-link  col-12">
                         <NavLink to="/contact" activeClassName="menu-active">Contact Us</NavLink>
-                    </p>
+                    </div>
                 </ul>
-            </Nav>
+
             <hr/>
         </div>
     );
