@@ -9,7 +9,10 @@ function Faculty() {
             <div className="row row-eq-height">
                 <div className="col-12 col-sm-6 col-lg-3 mt-5">
                     <Card className="card">
-                        <CardImg src="assets/fac_1.jpg" alt="Arindam Biswas"/>
+                        < CardImg src = "assets/fac_1.jpg"
+                        alt = "Arindam Biswas"
+                        onLoadStart = "this.src='assests/noimage.png'"
+                        onError = "this.src='assests/noimage.png'"/>
                         <CardBody>
                         <CardTitle><h6>Arindam Biswas</h6></CardTitle>
                         <CardText>
