@@ -1,6 +1,4 @@
 import React from 'react';
-import RenderSmoothImage from 'render-smooth-image-react';
-import 'render-smooth-image-react/build/style.css';
 
 function Gallery() {
     return (
@@ -10,22 +8,22 @@ function Gallery() {
             <div className="row">
                 <div className="col-12 col-sm-6 col-lg-3 gallery-body">
                     <div className="img-container">
-                        <RenderSmoothImage src="assets/lab_1.jpg" alt="Research Lab 1"/>
+                        <img src="assets/lab_1.jpg" alt="Research Lab 1"/>
                     </div>
                 </div>
                 <div className="col-12 col-sm-6 col-lg-3 gallery-body">
                     < div className = "img-container" >
-                        <RenderSmoothImage src="assets/lab_2.jpg" alt="Research Lab 3"/>
+                        <img src="assets/lab_2.jpg" alt="Research Lab 3"/>
                     </div>
                 </div>
                 <div className="col-12 col-sm-6 col-lg-3 gallery-body">
                     < div className = "img-container" >
-                        <RenderSmoothImage src="assets/lab_3.jpg" alt="Research Scholars Lab"/>
+                        <img src="assets/lab_3.jpg" alt="Research Scholars Lab"/>
                     </div>
                 </div>
                 <div className="col-12 col-sm-6 col-lg-3 gallery-body">
                     < div className = "img-container" >
-                        <RenderSmoothImage src="assets/dept_img.jpg" alt="Department Banner"/>
+                        <img src="assets/dept_img.jpg" alt="Department Banner"/>
                     </div>
                 </div>
                 

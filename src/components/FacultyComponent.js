@@ -1,7 +1,6 @@
 import React from 'react';
 import {Card, CardBody, CardTitle, CardText} from 'reactstrap';
- import RenderSmoothImage from 'render-smooth-image-react';
- import 'render-smooth-image-react/build/style.css';
+
 
 function Faculty() {
 
@@ -12,8 +11,9 @@ function Faculty() {
             <div className="row row-eq-height">
                 <div className="col-12 col-sm-6 col-lg-3 mt-5">
                     <Card className="card">
-                        <RenderSmoothImage className="card-img" src = "assets/fac_1.jpg"
-                        alt = "Arindam Biswas"/>
+                        <div>
+                            <img className="card-img" src = "assets/fac_1.jpg" alt = "Arindam Biswas"/>
+                        </div>
                         <CardBody>
                         <CardTitle><h6>Arindam Biswas</h6></CardTitle>
                         <CardText>
@@ -31,7 +31,7 @@ function Faculty() {
                 </div>
                 <div className="col-12 col-sm-6 col-lg-3 mt-5">
                     <Card className="card">
-                        <RenderSmoothImage className="card-img" src="assets/fac_2.jpg" alt="Chandan Giri"/>
+                        <img className="card-img" src="assets/fac_2.jpg" alt="Chandan Giri"/>
                         <CardBody>
                             <CardTitle><h6>Chandan Giri</h6></CardTitle>
                             <CardText>
@@ -48,7 +48,7 @@ function Faculty() {
                 </div>
                 <div className="col-12 col-sm-6 col-lg-3 mt-5">
                     <Card className="card">
-                        <RenderSmoothImage className="card-img" src="assets/fac_3.jpg" alt="Hafizur Rahaman"/>
+                        <img className="card-img" src="assets/fac_3.jpg" alt="Hafizur Rahaman"/>
                         <CardBody>
                             <CardTitle><h6>Hafizur Rahaman</h6></CardTitle>
                             <CardText>
@@ -66,7 +66,7 @@ function Faculty() {
                 </div>
                 <div className="col-12 col-sm-6 col-lg-3 mt-5">
                     <Card className="card">
-                        <RenderSmoothImage className="card-img" src="assets/fac_4.jpg" alt="Indrajit Banerjee" />
+                        <img className="card-img" src="assets/fac_4.jpg" alt="Indrajit Banerjee" />
                         <CardBody>
                             <CardTitle><h6>Indrajit Banerjee</h6></CardTitle>
                             <CardText>
@@ -84,7 +84,7 @@ function Faculty() {
                 </div>
                 <div className="col-12 col-sm-6 col-lg-3 mt-5">
                     <Card className="card">
-                        <RenderSmoothImage className="card-img" src="assets/fac_5.jpg" alt="Malay Bhattacharyya" />
+                        <img className="card-img" src="assets/fac_5.jpg" alt="Malay Bhattacharyya" />
                     
                         <CardBody>
                             <CardTitle><h6>Malay Bhattacharyya</h6></CardTitle>
@@ -102,7 +102,7 @@ function Faculty() {
                 </div>
                 <div className="col-12 col-sm-6 col-lg-3 mt-5">
                     <Card className="card">
-                        <RenderSmoothImage className="card-img" src="assets/fac_6.jpg" alt="Prasun Ghosal"  />
+                        <img className="card-img" src="assets/fac_6.jpg" alt="Prasun Ghosal"  />
                     
                         <CardBody>
                             <CardTitle><h6>Prasun Ghosal</h6></CardTitle>
@@ -121,7 +121,7 @@ function Faculty() {
                 </div>
                 <div className="col-12 col-sm-6 col-lg-3 mt-5">
                     <Card className="card">
-                        <RenderSmoothImage className="card-img" src="assets/fac_7.jpg" alt="Ruchira Naskar" />
+                        <img className="card-img" src="assets/fac_7.jpg" alt="Ruchira Naskar" />
                     
                         <CardBody>
                             <CardTitle><h6>Ruchira Naskar</h6></CardTitle>
@@ -139,7 +139,7 @@ function Faculty() {
                 </div>
                 <div className="col-12 col-sm-6 col-lg-3 mt-5">
                     <Card  className="card">
-                        <RenderSmoothImage className="card-img" src="assets/fac_8.jpg" alt="Santi Prasad Maity" />
+                        <img className="card-img" src="assets/fac_8.jpg" alt="Santi Prasad Maity" />
                     
                         <CardBody>
                             <CardTitle><h6>Santi Prasad Maity</h6></CardTitle>
@@ -158,7 +158,7 @@ function Faculty() {
                 </div>
                 <div className="col-12 col-sm-6 col-lg-3 mt-5">
                     <Card className="card">
-                        <RenderSmoothImage className="card-img" src="assets/fac_9.jpg" alt="Shyamalendu Kandar" />
+                        <img className="card-img" src="assets/fac_9.jpg" alt="Shyamalendu Kandar" />
                     
                         <CardBody>
                             <CardTitle><h6>Shyamalendu Kandar</h6></CardTitle>
@@ -175,7 +175,7 @@ function Faculty() {
                 </div>
                 <div className="col-12 col-sm-6 col-lg-3 mt-5">
                     <Card className="card">
-                        <RenderSmoothImage className="card-img" src="assets/fac_10.jpg" alt="Sukanta Das" />
+                        <img className="card-img" src="assets/fac_10.jpg" alt="Sukanta Das" />
                     
                         <CardBody>
                             <CardTitle><h6>Sukanta Das</h6></CardTitle>
@@ -193,7 +193,7 @@ function Faculty() {
                 </div>
                 <div className="col-12 col-sm-6 col-lg-3 mt-5">
                     <Card className="card">
-                        <RenderSmoothImage className="card-img" src="assets/fac_11.jpg" alt="Surajit Kumar Roy" />
+                        <img className="card-img" src="assets/fac_11.jpg" alt="Surajit Kumar Roy" />
                         <CardBody>
                             <CardTitle><h6>Surajit Kumar Roy</h6></CardTitle>
                             <CardText>
@@ -211,7 +211,7 @@ function Faculty() {
                 </div>
                 <div className="col-12 col-sm-6 col-lg-3 mt-5">
                     <Card className="card">
-                        <RenderSmoothImage className="card-img" src="assets/fac_12.jpg" alt="Tuhina Samanta" />
+                        <img className="card-img" src="assets/fac_12.jpg" alt="Tuhina Samanta" />
                     
                         <CardBody>
                             <CardTitle><h6>Tuhina Samanta</h6></CardTitle>
