@@ -134,7 +134,7 @@ a:hover {
     padding-left: 10px;
     padding-top: 10px;
     padding-bottom: 10px;
-    text-align: center;
+    text-align: left;
 }
 .menu-active{
     font-weight: bold;
