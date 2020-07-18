@@ -1,6 +1,7 @@
 import React from 'react';
 import {Card, CardBody, CardImg, CardTitle, CardText} from 'reactstrap';
 
+
 function Staff() {
     return (
         < div className = "col-12 col-md-10 body">

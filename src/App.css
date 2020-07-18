@@ -4,6 +4,8 @@ body{
     animation: 1s ease-in-out 0s 1 fadeIn;
 }
 
+
+
 .container{
         width: 100%;
         padding-right: 15px;
@@ -46,6 +48,7 @@ body{
     height: 100%;
     box-shadow: 0px 0px 30px rgba(83, 88, 93, 0.15);
 }
+
 
 
 
@@ -173,7 +176,7 @@ thead, .card-head{
 /****************/
 
 /*Facilities Component*/
-.facilities-body img{
+.facilities-body RenderSmoothImage{
     width: 90%;
     height: auto;
     margin: 2% 5%;
@@ -301,3 +304,4 @@ thead, .card-head{
         transform: translateY(0);
     }
 }
+
