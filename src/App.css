@@ -125,13 +125,20 @@ a:hover {
 
 /******************/
 
-/*Menu Component
-.active{
-    background-color: #191970;
-    color: #fff;
-    border-radius: 5%;
-    padding: 5%;
-}*/
+/*Menu Component*/
+menu-link{
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.menu-active{
+    font-weight: bold;
+    font-size: larger;
+}
+
+.menu-active:hover{
+    color: dodgerblue;
+}
 
 .menu{
     margin-top: 2%;

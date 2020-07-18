@@ -7,41 +7,41 @@ function Menu(){
         <div className="col-12 col-md-2 order-last order-md-first menu">
             <Nav>
                 <ul className="list-unstyled">
-                    <p>
-                        <NavLink to="/home"><a href="/home">Home</a></NavLink>
+                    <p className="menu-link">
+                        <NavLink to="/home" activeClassName="menu-active" >Home</NavLink>
                     </p>
-                    <p>
-                        <NavLink to="/academics">Academic Programs</NavLink>
+                    <p className="menu-link">
+                        <NavLink to="/academics" activeClassName="menu-active">Academic Programs</NavLink>
                     </p>
-                    <p>
-                        <NavLink to="/facilities">Facilities</NavLink>
+                    <p className="menu-link">
+                        <NavLink to="/facilities" activeClassName="menu-active">Facilities</NavLink>
                     </p>
-                    <p>
-                        <NavLink to="/research">Research Areas</NavLink>
+                    <p className="menu-link">
+                        <NavLink to="/research" activeClassName="menu-active">Research Areas</NavLink>
                     </p>
-                    <p>
-                        <NavLink to="/faculty">Faculty Members</NavLink>
+                    <p className="menu-link">
+                        <NavLink to="/faculty" activeClassName="menu-active">Faculty Members</NavLink>
                     </p>
-                    <p>
-                        <NavLink to="/staffs">Staff Members</NavLink>
+                    <p className="menu-link">
+                        <NavLink to="/staffs" activeClassName="menu-active">Staff Members</NavLink>
                     </p>
-                    <p>
-                        <NavLink to="/scholars">Research Scholars</NavLink>
+                    <p className="menu-link">
+                        <NavLink to="/scholars" activeClassName="menu-active">Research Scholars</NavLink>
                     </p>
-                    <p>
-                        <NavLink to="/project">Projects</NavLink>
+                    <p className="menu-link">
+                        <NavLink to="/project" activeClassName="menu-active">Projects</NavLink>
                     </p>
-                    <p>
-                        <NavLink to="/publication">Publications</NavLink>
+                    <p className="menu-link">
+                        <NavLink to="/publication" activeClassName="menu-active">Publications</NavLink>
                     </p>
-                    <p>
-                        <NavLink to="/gallery">Gallery</NavLink>
+                    <p className="menu-link">
+                        <NavLink to="/gallery" activeClassName="menu-active">Gallery</NavLink>
                     </p>
-                    <p>
-                        <NavLink to="/updates">Updates</NavLink>
+                    <p className="menu-link">
+                        <NavLink to="/updates" activeClassName="menu-active">Updates</NavLink>
                     </p>
-                    <p>
-                        <NavLink to="/contact">Contact Us</NavLink>
+                    <p className="menu-link">
+                        <NavLink to="/contact" activeClassName="menu-active">Contact Us</NavLink>
                     </p>
                 </ul>
             </Nav>
