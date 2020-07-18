@@ -9,11 +9,11 @@ function Contact() {
                 <strong>Contact our HOD for more information</strong>
             </p>
             <p>
-                Prof Sukanta Das
+                <a href="https://www.iiests.ac.in/IIEST/Faculty/it-sukanta" target="blank">Prof Sukanta Das</a>
             </p>
             <p>
-                <strong>Email:</strong> hod@it.iiests.ac.in<br/>
-                sukanta@it.iiests.ac.in<br/>
+                <strong>Email:</strong> <a href="mailto:hod@it.iiests.ac.in">hod@it.iiests.ac.in</a><br/>
+                <a href="mailto:sukanta@it.iiests.ac.in">sukanta@it.iiests.ac.in</a><br/>
                 <strong>Phone:</strong> 033 2668 4561-63 (Extn 260)
             </p>
             <hr/>

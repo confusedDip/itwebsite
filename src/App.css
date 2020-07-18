@@ -1,6 +1,7 @@
 body{
     font-size: 0.875rem;
     color: #4a4a4a;
+    font-family: "Poppins"sans-serif;
 }
 
 .container{
@@ -91,7 +92,8 @@ span {
 h1 {
     font-size: calc(1.34375rem + 1.125vw);
     color: white;
-    font-family: "Poppins"sans-serif;
+    font-family: "Poppins" sans-serif;
+    animation: 2s ease-out 0s 1 slideFromLeftToRight;
 }
 
 .heading {
@@ -121,6 +123,8 @@ a:hover {
 .body{
     margin-top: 2%;
     padding-bottom: 2%;
+    
+    animation: 3s ease-in-out 0s 1 fadeIn;
 }
 
 /******************/
@@ -155,6 +159,7 @@ thead, .card-head{
 /*Home Component*/
 .home-text{
     text-align: justify;
+    /*animation: 1s ease-out 0s 1 fadeIn;*/
 }
 
 #updates-card{
@@ -217,9 +222,14 @@ thead, .card-head{
 /*********/
 
 /*Publication*/
+.publication-item{
+    transition: ease-in-out .1s;
+}
 .publication-item:hover{
     color: #191970;
+    transform: scale(1.01) ;
 }
+
 /*************/
 
 @media (min-width:576px) {
@@ -251,6 +261,36 @@ thead, .card-head{
     .gallery-body:hover {
         transform: scale(1.1);
     }
+}
 
 
+@keyframes fadeIn {
+    0% {
+        transform: scale(1);
+        opacity: 0;
+    }
+
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+@keyframes slideFromLeftToRight{
+    0% {
+        transform: translateX(-100%);
+    }
+
+    100%{
+        transform: translateX(0);
+    }
+}
+
+@keyframes slideFromUpToDown{
+    0%{
+        transform: translateY(-10%);
+    }
+    100%{
+        transform: translateY(0);
+    }
 }
