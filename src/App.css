@@ -1,7 +1,6 @@
 body{
     font-size: 0.875rem;
     color: #4a4a4a;
-    font-family: "Poppins"sans-serif;
     animation: 1s ease-in-out 0s 1 fadeIn;
 }
 
@@ -93,7 +92,6 @@ span {
 h1 {
     font-size: calc(1.34375rem + 1.125vw);
     color: white;
-    font-family: "Poppins" sans-serif;
     animation: 2s ease-out 0s 1 slideFromLeftToRight;
 }
 
