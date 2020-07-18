@@ -2,18 +2,6 @@ import React from 'react';
 import Footer from './FooterComponent';
 import Header from './HeaderComponent';
 import Menu from './MenuComponent';
-import Home from './HomeComponent';
-import Academic from './AcademicComponent';
-import Facilities from './FacilitiesComponent';
-import Research from './ResearchComponent';
-import Faculty from './FacultyComponent';
-import Staff from './StaffComponent';
-import Scholar from './ScholarComponent';
-import Project from './ProjectComponent';
-import Publication from './PublicationComponent';
-import Gallery from './GalleryComponent';
-import Update from './UpdateComponent';
-import Contact from './ContactComponents';
 
 
 import Loadable from "react-loadable"; 
@@ -79,7 +67,7 @@ const LoadableUpdate = Loadable({
 
 
 const LoadableContact = Loadable({
-  loader: () => import("./ContactComponent"),
+  loader: () => import("./ContactComponents"),
   loading: () => <div>Loading ...</div>,
 });
 
