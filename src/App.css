@@ -44,6 +44,12 @@ body{
 .card {
     height: 100%;
     box-shadow: 0px 0px 30px rgba(83, 88, 93, 0.15);
+    transition: ease-in-out 1s;
+}
+
+
+.card:hover {
+    transform: scale(1.1);
 }
 
 .card-body{
@@ -181,6 +187,11 @@ thead, .card-head{
 
 .facilities-body{
     margin-bottom: 2%;
+    transition: ease-in-out 1s;
+}
+
+.facilities-body:hover{
+    transform: scale(1.1);
 }
 
 /**********************/
@@ -191,6 +202,11 @@ thead, .card-head{
 }
 .gallery-body{
     margin-bottom: 2%;
+   transition: ease-in-out 1s;
+}
+
+.gallery-body:hover{
+    transform: scale(1.1);
 }
 /*********/
 

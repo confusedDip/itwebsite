@@ -7,7 +7,7 @@ function Staff() {
             <h5>Staff Members</h5>
             <div className="divider"></div>
             <div className="row row-eq-height">
-                <div className="col-12 col-sm-6 col-lg-3 mt-3">
+                <div className="col-12 col-sm-6 col-lg-3 mt-5">
                     <Card className="card">
                         <CardImg src="assets/staff_1.jpg" alt="Amiya Ratan Rout"/>
                         <CardBody>
@@ -24,7 +24,7 @@ function Staff() {
                     </CardBody>
                     </Card>
                 </div>
-                <div className="col-12 col-sm-6 col-lg-3 mt-3">
+                <div className="col-12 col-sm-6 col-lg-3 mt-5">
                     <Card className="card">
                         <CardImg src="assets/staff_2.jpg" alt="Bishnupada Choudhury"/>
                         <CardBody>
@@ -41,7 +41,7 @@ function Staff() {
                         </CardBody>
                     </Card>
                 </div>
-                <div className="col-12 col-sm-6 col-lg-3 mt-3">
+                <div className="col-12 col-sm-6 col-lg-3 mt-5">
                     <Card className="card">
                         <CardImg src="assets/staff_3.jpg" alt="Dinabandhu Sadhukhan"/>
                         <CardBody>
@@ -57,7 +57,7 @@ function Staff() {
                         </CardBody>
                     </Card>
                 </div>
-                <div className="col-12 col-sm-6 col-lg-3 mt-3">
+                <div className="col-12 col-sm-6 col-lg-3 mt-5">
                     <Card className="card">
                         <CardImg src="assets/staff_4.jpg" alt="Malay Dhir" />
                         <CardBody>
@@ -74,7 +74,7 @@ function Staff() {
                         </CardBody>
                     </Card>
                 </div>
-                <div className="col-12 col-sm-6 col-lg-3 mt-3">
+                <div className="col-12 col-sm-6 col-lg-3 mt-5">
                     <Card className="card">
                         <CardImg src="assets/staff_5.jpg" alt="Sanchayita Dhara" />
                     
@@ -93,7 +93,7 @@ function Staff() {
                         </CardBody>
                     </Card>
                 </div>
-                <div className="col-12 col-sm-6 col-lg-3 mt-3">
+                <div className="col-12 col-sm-6 col-lg-3 mt-5">
                     <Card className="card">
                         <CardImg src="assets/staff_6.jpg" alt="Snehashis Saha" />
                     
@@ -112,7 +112,7 @@ function Staff() {
                         </CardBody>
                     </Card>
                 </div>
-                <div className="col-12 col-sm-6 col-lg-3 mt-3">
+                <div className="col-12 col-sm-6 col-lg-3 mt-5">
                     <Card className="card">
                         <CardImg src="assets/staff_7.jpg" alt="Soma Sardar" />
                     
@@ -131,7 +131,7 @@ function Staff() {
                         </CardBody>
                     </Card>
                 </div>
-                <div className="col-12 col-sm-6 col-lg-3 mt-3">
+                <div className="col-12 col-sm-6 col-lg-3 mt-5">
                     <Card  className="card">
                         <CardImg src="assets/staff_8.jpg" alt="Soumen Gope" />
                     
@@ -150,7 +150,7 @@ function Staff() {
                         </CardBody>
                     </Card>
                 </div>
-                <div className="col-12 col-sm-6 col-lg-3 mt-3">
+                <div className="col-12 col-sm-6 col-lg-3 mt-5">
                     <Card className="card">
                         <CardImg src="assets/staff_9.jpg" alt="Souvik Patra" />
                     
@@ -169,7 +169,7 @@ function Staff() {
                         </CardBody>
                     </Card>
                 </div>
-                <div className="col-12 col-sm-6 col-lg-3 mt-3">
+                <div className="col-12 col-sm-6 col-lg-3 mt-5">
                     <Card className="card">
                         <CardImg src="assets/staff_10.jpg" alt="Subhajit Biswas" />
                     
@@ -188,7 +188,7 @@ function Staff() {
                         </CardBody>
                     </Card>
                 </div>
-                <div className="col-12 col-sm-6 col-lg-3 mt-3">
+                <div className="col-12 col-sm-6 col-lg-3 mt-5">
                     <Card className="card">
                         <CardImg src="assets/staff_11.jpg" alt="Suman Sarkar" />
                         <CardBody>
