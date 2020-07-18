@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from 'react-router-dom';
 
 function Footer(){
     return (
@@ -37,35 +38,36 @@ function Footer(){
                   <div className="col-12 col-sm-6">
                     <ul className="list-unstyled">
                       <li>
-                        <a href="#">Downloads</a>
+                        <Link to="/home/">Home</Link>
                       </li>
                       <li>
-                        <a href="#">Old Website</a>
+                          <Link to="/academics">Academic Programs</Link>
                       </li>
                       <li>
-                        <a href="#">My-IIESTS</a>
+                          <Link to="/facilities">Facilities</Link>
                       </li>
                       <li>
-                        <a href="#">Right To Information Act</a>
+                          <Link to="/research">Research Areas</Link>
                       </li>
                       <li>
-                        <a href="#">Chief Vigilance Officer</a>
+                          <Link to="/faculty">Faculty Members</Link>
                       </li>
                       <li>
-                        <a href="#">Tenders</a>
+                          <Link to="/staffs">Staff Members</Link>
                       </li>
                       <li>
-                        <a href="#">Employment Notices</a>
+                          <Link to="/scholars">Research Scholars</Link>
                       </li>
                       <li>
-                        <a href="#">Transcripts/Academic Record Verification</a>
+                          <Link to="/project">Projects</Link>
                       </li>
                       <li>
-                        <a href="#">Sixth Annual Convocation (YT)</a>
+                          <Link to="/publication">Publications</Link>
                       </li>
                       <li>
-                        <a href="#">Faculty Email Directory</a>
+                          <Link to="/gallery">Gallery</Link>
                       </li>
+                      
                     </ul>
                   </div>
                   <div className="col-12 col-sm-6">

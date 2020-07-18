@@ -7,7 +7,7 @@ import Home from './components/HomeComponent';
 import Academic from './components/AcademicComponent';
 
  
-import {Switch, Route, Redirect, withRouter, BrowserRouter} from 'react-router-dom';
+import {Switch, Route, Redirect, BrowserRouter} from 'react-router-dom';
 import Facilities from './components/FacilitiesComponent';
 import Research from './components/ResearchComponent';
 import Faculty from './components/FacultyComponent';
@@ -18,6 +18,7 @@ import Publication from './components/PublicationComponent';
 import Gallery from './components/GalleryComponent';
 import Update from './components/UpdateComponent';
 import Contact from './components/ContactComponents';
+
 
 function App() {
 
